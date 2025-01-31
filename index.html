@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Assignment 3</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+<style>
+    .font-sora{
+        font-family: "Sora", serif;
+    }
+</style>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            'bike-primary':'#E76F51',
+            'bike-picture':'rgba(231, 111, 81, 0.1)'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="font-sora">
+    <header class=" mx-auto">
+        <nav class="">
+            <div class="navbar bg-gradient-to-r from-[#EFEBE3] to-[#EFEBE3] max-sm:border-b max-sm:border-b-[#179800] ">
+                <div class="navbar-start">
+                
+                  <img class="max-sm:hidden" src="./c2-assets/logo-header.png" alt="">
+                  <img class="lg:hidden md:hidden max-sm:ml-3" src="./c2-assets/Group.png" alt="">
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Product</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>Contact us</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end space-x-3">
+                    <img class="lg:hidden md:hidden max-sm:mr-3" width="30" height="30" src="https://img.icons8.com/ios-filled/28/menu--v6.png" alt="menu--v6"/>
+                    
+                    <img width="35" height="35" class="max-sm:hidden" src="https://img.icons8.com/ios-filled/100/search--v1.png" alt="search--v1"/>
+                    <img class="max-sm:hidden" width="35" height="35" src="https://img.icons8.com/ios/24/shopping-cart--v1.png" alt="shopping-cart--v1"/>
+                    <button class="btn max-sm:hidden w-[117px] text-xl bg-gradient-to-r from-[#EFEBE3] to-[#EFEBE3] border-[#179800]">Login</button>
+
+                  <a class="btn max-sm:hidden  text-white text-xl bg-[#179800]">Register</a>
+                </div>
+              </div>
+        </nav>
+        <!-- banner -->
+        <div class="bg-gradient-to-r from-[#EFEBE3] to-[#EFEBE3]">
+            <div class="hero  min-h-screen">
+                <div class="hero-content flex-col flex-col-reverse">
+                  <img
+                    src="./c2-assets/hero-vegetables.png"
+                    class=" " />
+                  <div class="mt-20 lg:w-[827px]">
+                    <h1 class="text-5xl font-bold text-center text-[#111111]">Freshness <span class="text-[#179800]">You Can</span> <br>
+                        <span class="text-[#179800]">Count</span> On, Prices You’ll Love!</h1>
+                    <p class="py-6 text-center text-[#111111] text-xl">
+                        Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!
+                    </p>
+                    
+                  </div>
+                </div>
+              </div>
+
+        </div>
+    </header>
+    <main></main>
+    <footer></footer>
+</body>
+</html>
