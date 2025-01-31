@@ -31,7 +31,7 @@
   </script>
 </head>
 <body class="font-sora">
-    <header class=" mx-auto">
+    <header class="mx-auto">
         <nav class="">
             <div class="navbar bg-gradient-to-r from-[#EFEBE3] to-[#EFEBE3] max-sm:border-b max-sm:border-b-[#179800] ">
                 <div class="navbar-start">
@@ -47,7 +47,7 @@
                   </ul>
                 </div>
                 <div class="navbar-end space-x-3">
-                    <img class="lg:hidden md:hidden max-sm:mr-3" width="30" height="30" src="https://img.icons8.com/ios-filled/28/menu--v6.png" alt="menu--v6"/>
+                    <img class="lg:hidden md:hidden max-sm:mr-3" width="30" height="30" src="./c2-assets/bars-3.png" alt="menu--v6"/>
                     
                     <img width="35" height="35" class="max-sm:hidden" src="https://img.icons8.com/ios-filled/100/search--v1.png" alt="search--v1"/>
                     <img class="max-sm:hidden" width="35" height="35" src="https://img.icons8.com/ios/24/shopping-cart--v1.png" alt="shopping-cart--v1"/>
@@ -60,15 +60,15 @@
         <!-- banner -->
         <div class="bg-gradient-to-r from-[#EFEBE3] to-[#EFEBE3]">
             <div class="hero  min-h-screen">
-                <div class="hero-content flex-col flex-col-reverse">
+                <div class="hero-content flex-col-reverse">
                   <img
                     src="./c2-assets/hero-vegetables.png"
                     class=" " />
-                  <div class="mt-20 lg:w-[827px]">
+                  <div class="mt-20 lg:w-[827px] animate-pulse">
                     <h1 class="text-5xl font-bold text-center text-[#111111]">Freshness <span class="text-[#179800]">You Can</span> <br>
                         <span class="text-[#179800]">Count</span> On, Prices You’ll Love!</h1>
                     <p class="py-6 text-center text-[#111111] text-xl">
-                        Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!
+                        Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we've got you covered every day!
                     </p>
                     
                   </div>
@@ -77,7 +77,82 @@
 
         </div>
     </header>
-    <main></main>
+    <main class=" mx-auto">
+      <section class="my-24">
+        <h3 class=" mr-4 font-semibold text-4xl text-[#179800]">Services</h3>
+        <div class="my-12 grid lg:grid-cols-3 gap-6">
+          <div class="card bg-base-100 w-[424px] h-[367px]  bg-[#EFEBE3]">
+            <figure class="px-10 pt-10">
+                <div class="w-[150px] h-[150px] bg-white py-6 px-6 rounded-full ">
+                    <img class="max-w-[100px] max-h-[100px]" src="./c2-assets/service.png" alt="">
+                  </div>
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title text-2xl font-semibold text-[#111111] ">24/7 Services </h2>
+              <p class="text-xl font-light text-[#313131] ">"Fresh vegetables available 24/7—quality and convenience at your service!"</p>
+            </div>
+          </div>
+          <div class="card bg-base-100 w-[424px] h-[367px]  bg-[#EFEBE3]">
+            <figure class="px-10 pt-10">
+                <div class="w-[150px] h-[150px] bg-white py-6 px-6 rounded-full ">
+                    <img class="max-w-[100px] max-h-[100px]" src="./c2-assets/delivery.png" alt="">
+                  </div>
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title text-2xl font-semibold text-[#111111] ">Fast Delivery</h2>
+              <p class="text-xl font-light text-[#313131] ">"Fresh vegetables delivered fast—quality and speed at your service!"</p>
+            </div>
+          </div>
+          <div class="card bg-base-100 w-[424px] h-[367px]  bg-[#EFEBE3]">
+            <figure class="px-10 pt-10">
+                <div class="w-[150px] h-[150px] bg-white py-6 px-6 rounded-full ">
+                    <img class="max-w-[100px] max-h-[100px]" src="./c2-assets/healthy.png" alt="">
+                  </div>
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title text-2xl font-semibold text-[#111111]">Healthy Products </h2>
+              <p class="text-xl font-light text-[#313131]">"Fresh and healthy vegetables for a nutritious lifestyle!"</p>
+            </div>
+          </div>
+
+
+        </div>
+      </section>
+      <section class="mb-24">
+        <h3 class=" mr-4 font-semibold text-4xl text-[#179800]">Vegetables</h3>
+        <div class="my-12 carousel w-full">
+          <div id="item1" class="carousel-item h-[400px] w-full">
+            <img
+              src="./vegetable/broccoli-florets.webp"
+              class="w-full" />
+          </div>
+          <div id="item2" class="carousel-item h-[400px] w-full">
+            <img
+              src="./vegetable/lettuce.webp"
+              class="w-full" />
+          </div>
+          <div id="item3" class="carousel-item h-[400px]  w-full">
+            <img
+              src="./vegetable/licensed-image (1).jpeg"
+              class="w-full" />
+          </div>
+          <div id="item4" class="carousel-item h-[400px] w-full">
+            <img
+              src="./vegetable/licensed-image.jpeg"
+              class="w-full" />
+          </div>
+        </div>
+        <div class="flex w-full justify-center gap-2 py-2">
+          <a href="#item1" class="btn btn-xs">1</a>
+          <a href="#item2" class="btn btn-xs">2</a>
+          <a href="#item3" class="btn btn-xs">3</a>
+          <a href="#item4" class="btn btn-xs">4</a>
+        </div>
+
+      </section>
+      
+
+    </main>
     <footer></footer>
 </body>
 </html>
